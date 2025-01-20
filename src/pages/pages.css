@@ -1,21 +1,20 @@
-.postlist {
-    width: 40%;
+.postlist, .post, .page-content {
+    width: 60%;
     margin: auto;
     text-align: center;
 }
 
-.post {
-    width: 40%;
-    margin: auto;
-}
-
-.page-content {
-    width: 40%;
-    margin: auto;
-    text-align: center;
+@media (max-width: 768px) {
+    .postlist, .post, .page-content {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        }
 }
 
 .profile-icon {
+    max-width: 100%;
+    height: auto;
     width:350px;
     height: 350px;
     border-radius: 50%;
