@@ -4,12 +4,21 @@
     text-align: center;
 }
 
+.homepage {
+    text-align: center;
+    margin-top: 10vh;
+}
+
 @media (max-width: 768px) {
     .postlist, .post, .page-content {
         width: 70%;
         margin: auto;
         text-align: center;
         }
+    .homepage {
+        text-align: center;
+        margin-top: 3vh;
+    }
 }
 
 .profile-icon {
@@ -22,7 +31,7 @@
     object-position: 50% 85%;
     border: 2px solid #ccc;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 50px auto;
+    margin: 20px auto;
     display: flex;
   }
 

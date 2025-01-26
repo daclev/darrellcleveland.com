@@ -7,7 +7,7 @@ function Home() {
     return (
         <div>
             <Layout>
-                <div className="homepage" style={{ textAlign: 'center', marginBottom: '40px' }} >
+                <div className="homepage" >
                     <img src={MyPhoto} alt="Portrait" loading="lazy" className="profile-icon" />
                     <h1>Husband, Dad, & Software Developer</h1>
                     <p>Welcome to my personal site!</p>
