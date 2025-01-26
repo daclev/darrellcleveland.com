@@ -6,7 +6,7 @@
 
 @media (max-width: 768px) {
     .postlist, .post, .page-content {
-        width: 60%;
+        width: 70%;
         margin: auto;
         text-align: center;
         }
@@ -22,7 +22,7 @@
     object-position: 50% 85%;
     border: 2px solid #ccc;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
+    margin: 50px auto;
     display: flex;
   }
 
