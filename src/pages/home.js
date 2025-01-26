@@ -9,8 +9,8 @@ function Home() {
             <Layout>
                 <div className="homepage" style={{ textAlign: 'center', marginBottom: '40px' }} >
                     <img src={MyPhoto} alt="Portrait" loading="lazy" className="profile-icon" />
-                    <h1>Welcome to my personal site!</h1>
-                    <p>Husband, Dad, and Lead Software Developer</p>
+                    <h1>Husband, Dad, & Software Developer</h1>
+                    <p>Welcome to my personal site!</p>
                 </div>
             </Layout>
         </div>
