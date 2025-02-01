@@ -7,7 +7,7 @@ import "./components.css"
 function Postlist() {
     const excerptList = postlist.map(post => {
         return (
-            post.content.split(" ").slice(0, 20).join(" ")
+            post.content.split(" ").slice(0, 24).join(" ")
         )
     })
     return (

@@ -4,7 +4,7 @@ author: Darrell Cleveland
 date: January 4, 2025
 ---
 
-# Post #1
+## Post #1 - Why Blog?
 *Last Updated: January 31, 2025*
 
 *tldr - my purpose for this is to share content that I have found helpful in some way with others..*
@@ -12,7 +12,7 @@ date: January 4, 2025
 Welcome to my blog! 👋🏻  
 This is a space where one post my not follow another, content should be used with great care (**I'm not liability for other's decisions**, only trying to conjure good vibes), and most thoughts are not my own but are presented through my lens. Credit will be given where credit is due. 
 
-"It is our choices, Harry, that show what we truly are, far more than our abilities" -Albus Dumbledore
+"It is our choices, Harry, that show what we truly are, far more than our abilities"  -Albus Dumbledore
 
 ## What this blog is not.
 It is not any sort of communal platform. There are no plans to offer others an opportunity to comment.  
