@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fc707f32.css",
-    "main.js": "/static/js/main.95c60471.js",
+    "main.js": "/static/js/main.e77672ca.js",
     "static/media/darrell-photo.jpg": "/static/media/darrell-photo.2d5f0e77f3e4d2ec06f6.jpg",
     "static/media/raleway-latin-700italic.woff": "/static/media/raleway-latin-700italic.744e43f35d44a20783d1.woff",
     "static/media/raleway-latin-800italic.woff": "/static/media/raleway-latin-800italic.18fd02483646c7a5d9c5.woff",
@@ -41,10 +41,10 @@
     "static/media/raleway-latin-100.woff2": "/static/media/raleway-latin-100.16d7dcebbcc7dee6b7c8.woff2",
     "index.html": "/index.html",
     "main.fc707f32.css.map": "/static/css/main.fc707f32.css.map",
-    "main.95c60471.js.map": "/static/js/main.95c60471.js.map"
+    "main.e77672ca.js.map": "/static/js/main.e77672ca.js.map"
   },
   "entrypoints": [
     "static/css/main.fc707f32.css",
-    "static/js/main.95c60471.js"
+    "static/js/main.e77672ca.js"
   ]
 }
