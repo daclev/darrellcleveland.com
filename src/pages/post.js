@@ -1,6 +1,7 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
 import Markdown from "react-markdown";
+import { readingTime } from "reading-time-estimator";
 import { useParams } from 'react-router-dom';
 import Layout from "../components/layout";
 import postlist from "../posts.json";
@@ -26,13 +27,28 @@ function Post(props) {
     if (postExists === false) {
         return <Navigate to="/404" />
     }
-    return (
+    const readTime = readingTime(fetchedPost.content).text;
+    const processedContent = fetchedPost.content.replace(
+        /!\[(.*?)\]\((.*?)\)/g,
+        (match, alt, src) => {
+            try {
+                const imagePath = require(`../assets/images/${src}`);
+                return `![${alt}](${imagePath})`;
+            } catch (error) {
+                console.error("Image not found:", src);
+                return match; 
+            }
+        }
+    );
+        return (
         <Layout>
             <div className="post">
                 <h2>{fetchedPost.title}</h2>
                 <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
-                <hr />
-                <Markdown children={fetchedPost.content} />
+                <br/>
+                <small><em>{readTime}</em></small>
+                <hr/>
+                <Markdown children={processedContent} />
             </div>
         </Layout>
     )
