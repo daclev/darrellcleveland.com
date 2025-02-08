@@ -20,7 +20,7 @@ It is not any sort of communal platform. There are no plans to offer others an o
  However, others may contact me. If you find a significate error, send me an email with the issue and if you're correct, I'll give you a shout-out in the fixed content!
   
  ![ProgrammerHumorAncientC](../assets/images/programmerhumor-io-post-meme.jpg)  
- *reference: https://programmerhumor.io/programming-memes/when-i-try-to-get-help-about-some-ancient-c-header-files/*
+ *reference: [programmerhumor.io](https://programmerhumor.io/programming-memes/when-i-try-to-get-help-about-some-ancient-c-header-files/)*
 
  Being DENVERCODER9, not the goal.
 

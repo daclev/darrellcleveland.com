@@ -5,6 +5,7 @@ import "./pages.css"
 function NotFound () {
     return (
         <Layout >
+            <br/>
             <h1 className="notfound">
                 The page you are looking for does not exist.
             </h1>

@@ -1,6 +1,8 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
 import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 import { readingTime } from "reading-time-estimator";
 import { useParams } from 'react-router-dom';
 import Layout from "../components/layout";
@@ -48,7 +50,7 @@ function Post(props) {
                 <br/>
                 <small><em>{readTime}</em></small>
                 <hr/>
-                <Markdown children={processedContent} />
+                <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} children={processedContent} />
             </div>
         </Layout>
     )
