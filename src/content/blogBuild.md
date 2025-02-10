@@ -21,10 +21,10 @@ Websites need a few components to operate, e.g. here are mine
 | Need    | Description  |
 |----------|:------------|
 | Domain | [darrellcleveland.com](https://darrellcleveland.com/) |
-| Hosting | github (free - up to 5 gigabytes before there is any real worries) |
-| Code | such as the React framework |
-| Security | SSl/TLS such as [cloudflare](https://www.cloudflare.com/)|
-| Deployability | github using gh-pages|
+| Hosting | [github](https://github.com/) (free - up to 5 gigabytes before there is any real worries) |
+| Code | this is wrote using the [React framework](https://create-react-app.dev/) |
+| Security | SSL/TLS/etc. I'm leaving this to [cloudflare](https://www.cloudflare.com/)|
+| Deployability | github using [gh-pages](https://create-react-app.dev/docs/deployment/#github-pages)|
 | DNS | hook the deployment (host) and domain together. Use DNS records such as A, CNAME, so on.. |
 | Database | somewhere to store data (I'm using Markdown files from a directory.. close enough) |
 
