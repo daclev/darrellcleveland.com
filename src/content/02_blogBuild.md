@@ -34,9 +34,8 @@ Additionally, large systems will need backend applications to handle request and
  Building a website can be fun and as simple or complex as the developer(s) would like or need to make it.
  There are many examples, tutorials, documentation, and communities to help support someone who wants to start.
 
- If someone is looking for an easier - less code/no code option. There are plenty of sites that support this. Prebuilt templates will most likely offer what someone would want to for a very simple site, such as a blog or info page. 
+ If someone is looking for an easier - less code/no code option. There are plenty of sites that support this. Prebuilt templates will most likely offer what someone would want for a very simple site, such as a blog or info page. 
 
  If someone is looking for something more custom, then digging into a language such as javascript or typescript might be the way to go. Or, hire a developer to help create what your heart desires.
 
-Thanks for reading!  
-Hope you read on.
+Thanks for reading! 

@@ -29,4 +29,4 @@ It is not any sort of communal platform. There are no plans to offer others an o
  It is a great way to give back, reflect on prior experience, and share information that may be helpful to others.
 
 Thanks for reading!  
-Hope you read on as I take this blogging journey.
+And, hope you read on. 

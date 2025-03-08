@@ -3,6 +3,8 @@ import { Navigate } from "react-router-dom";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { materialDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { readingTime } from "reading-time-estimator";
 import { useParams } from 'react-router-dom';
 import Layout from "../components/layout";
@@ -50,7 +52,25 @@ function Post(props) {
                 <br/>
                 <small><em>{readTime}</em></small>
                 <hr/>
-                <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} children={processedContent} />
+                <Markdown
+    remarkPlugins={[remarkGfm]}
+    components={{
+        code({ node, inline, className, children, ...props }) {
+            const match = /language-(\w+)/.exec(className || "");
+            return !inline && match ? (
+                <SyntaxHighlighter style={materialDark} language={match[1]} PreTag="div" {...props}>
+                    {String(children).replace(/\n$/, "")}
+                </SyntaxHighlighter>
+            ) : (
+                <code className={className} {...props}>
+                    {children}
+                </code>
+            );
+        },
+    }}
+>
+    {processedContent}
+</Markdown>
             </div>
         </Layout>
     )
